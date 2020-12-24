@@ -1,0 +1,154 @@
+.header{
+	width:100%;
+	height: 60px;
+	background: #000;
+	line-height: 60px;
+	color: #fff;
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+.header>.nav>span{
+	background: url("../img/ico1.png") 0 20px no-repeat;
+	font-size: 18px;
+	padding-left: 40px;
+}
+.header>.nav>ul{
+	margin-left: 120px;
+	float: left;
+}
+.header>.nav>ul li{
+	float: left;
+}
+.header>.nav>ul li a{
+	display: block;
+	padding: 0 25px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.header>.nav>ul li a:hover,.header>.nav>ul li a.hover{
+	background-color: #1d3248;
+}
+.header>.nav .search input[type="text"]{
+	background-color: #000;
+	border: none;
+	height: 30px;
+	color: #fff;
+	text-indent: 1em;
+}
+.header>.nav .search input[type="button"],.header>.nav .search input[type="submit"]{
+	background: url("../img/ico1.png") 0 -48px no-repeat;
+	width:20px;
+	height: 25px;
+	border: none;
+	vertical-align: middle;
+	cursor: pointer;
+
+}
+.header>.nav .search>span{
+	background: url("../img/ico1.png") 0 -77px no-repeat;
+	padding-left: 20px;
+	font-family: "宋体";
+	font-size: 12px;
+	height: 55px;
+	display: inline-block;
+	margin-left: 30px;
+
+}
+.banner{
+	width:100%;
+	background-color: #000206;
+	height: auto;
+	/*text-align: center;*/
+
+}
+.banner img{
+	margin: 0 auto;
+	width:100%;
+	height: auto;
+}
+.banner>div{
+	position: relative;
+	/*width: 1366px;*/
+	margin:0 auto;
+}
+.banner>div>div{
+	position: relative;
+	/*left:20px;*/
+	/*margin-left: -670px;*/
+	bottom:20px;
+	margin:-85px auto 30px;
+	width:1340px;
+
+}
+.banner .time{
+
+
+	color:#fff;
+	/* font-family: "宋体";*/
+	/*font-weight: bold;*/
+}
+.banner #time{
+	font-size: 36px;
+}
+.banner #day{
+	font-size: 18px;
+	letter-spacing:1px;
+}
+.fotter{
+	background: #282828;
+	height: 80px;
+	margin-top:40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "宋体";
+	padding-top:14px;
+}
+.fotter b{
+	color: #66bcff;
+	font-weight: normal;
+}
+
+.fotter img{
+	margin-right: 10px;
+}
+.outer-content{
+	min-height: calc(77.2vh - 1.00px);
+}
+.img{
+	position:relative;
+	cursor: pointer;
+}
+.img>img{
+	position: absolute;
+	left: -94px;
+	top: 40px;
+	display: none;
+}
+.img:hover{
+	color: #2bc4ff;
+
+}
+.img:hover img{
+	display: block;
+}
+.outer-content1{
+	min-height: calc(82.93vh - 1.00px);
+}
+@media only screen and (max-width: 1366px){
+	body,.fotter{
+		width:1340px;
+	}
+	.outer-content{
+		background-color:#fff;
+		width:1340px;
+	}
+	.outer-content1{
+		background-color:#fff;
+		width:1340px;
+	}
+
+}
