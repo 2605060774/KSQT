@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69654ffe-4a26-438f-b7df-2b2735aaf08b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608790166555</updated>
       <workItem from="1608790170305" duration="693000" />
-      <workItem from="1608790879868" duration="851000" />
+      <workItem from="1608790879868" duration="1511000" />
+      <workItem from="1608855885681" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="董莽">
       <created>1608791546282</created>
@@ -115,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608791634575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="董莽">
+      <created>1608791775905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608791775905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,10 +141,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="董莽" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="109" key="CommitChangelistDialog2" timestamp="1608791764233">
+    <state x="457" y="109" key="CommitChangelistDialog2" timestamp="1608791774668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="457" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791764233" />
+    <state x="457" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791774668" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608791324820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,10 +153,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608790899194" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608791710731">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608791785587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791710731" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791785587" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608791340894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
