@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* CSS Document */
+.fl{ 
+	 float:left;
+ }
+ 
+.fr{ 
+	float:right;
+}
+
+.clearfix{
+	 zoom:1;
+	 }
+	 
+.clearfix:after{    
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+	}
+
+img{
+	
+	border:none;
+	}
+*{ margin:0; padding:0;}
+body{
+ 	font-family: "微软雅黑" ,Tahoma, Arial, Verdana;
+	font-size:12px;
+	color:#333;
+    width:100%;
+
+}
+ul,li,p,form{
+	list-style:none;
+}
+
+a{
+	 text-decoration:none;
+	 cursor:pointer;
+	 color:#333;
+	 }
+a:hover{
+	text-decoration: none;
+}
+

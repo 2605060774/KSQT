@@ -1,0 +1,33 @@
+/** 图标字体 **/
+/*默认图标*/
+@font-face {font-family: 'layui-icon';
+    src: url('../font/font/iconfont.eot');
+    src: url('../font/font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/font/iconfont.woff') format('woff'),
+    url('../font/font/iconfont.ttf') format('truetype'),
+    url('../font/font/iconfont.svg#iconfont') format('svg');
+}
+/*扩展图标*/
+@font-face {font-family: 'mine-icon';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#mine-icon') format('svg');
+}
+
+.layui-icon{
+    font-family:"layui-icon" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mine-icon{
+    font-family:"mine-icon" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
