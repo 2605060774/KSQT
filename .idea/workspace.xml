@@ -1,99 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69654ffe-4a26-438f-b7df-2b2735aaf08b" name="Default Changelist" comment="aa">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/qs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/yhy/Shipin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/video/haha.mp4" afterDir="false" />
+    <list default="true" id="69654ffe-4a26-438f-b7df-2b2735aaf08b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TrainingExamination_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/TrainingExamination_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TrainingExamination_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/TrainingExamination_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bgs/pojo/aa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bgs/pojo/aa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/leftTree/Tree.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/leftTree/Tree.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/leftTree/aaa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/leftTree/aaa.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bgs/TrainingExaminationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bgs/TrainingExaminationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bgs/TrainingExaminationApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bgs/TrainingExaminationApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingExamination.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TrainingExamination.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="aa.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bgs/pojo/aa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shipin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/yhy/Shipin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaa.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/leftTree/aaa.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tree.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/leftTree/Tree.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-274604200">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bgs/controller/pc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bgs/TrainingExaminationApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bgs/pojo/aa.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsps/yhy/Shipin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsps/leftTree/aaa.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsps/leftTree/Tree.jsp" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -104,23 +51,23 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="localRepository" value="E:\maven-repoo" />
+        <option name="mavenHome" value="E:/material/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\material\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="width" value="1400" />
-    <option name="height" value="997" />
+    <option name="x" value="245" />
+    <option name="y" value="35" />
+    <option name="width" value="1475" />
+    <option name="height" value="935" />
   </component>
   <component name="ProjectId" id="1m5j60dBiiI0dzbrXkDQaKn8Mly" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -129,79 +76,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingExamination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainingExamination" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="jsps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsps" type="462c0819:PsiDirectoryNode" />
-              <item name="leftTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsps" type="462c0819:PsiDirectoryNode" />
-              <item name="yhy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ksxt_font" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ksxt_font" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -210,542 +145,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609116991866" />
+    <property name="last_opened_file_path" value="F:/第十四月版本控制/Git/cmd/git.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWork\ksxt_font\src\main\webapp\video" />
-      <recent name="D:\IdeaWork\ksxt_font\src\main\resources\static\js" />
-      <recent name="D:\IdeaWork\ksxt_font\src\main\resources\static\vue" />
       <recent name="D:\java\IDEA\TrainingExamination\src\main\resources" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/application.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/bgs/TrainingExaminationApplicationTests.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/jsps/leftTree/Tree.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/jsps/leftTree/aaa.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/application.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/bgs/ServletInitializer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/bgs/TrainingExaminationApplication.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/DemandThreeTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/LoggerGenerate.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-fileinput.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-tab.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/css/bootstrap-datetimepicker.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/css/bootstrap-datetimepicker.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/bootstrap-datetimepicker.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/bootstrap-datetimepicker.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ee.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.hy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.pt-BR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.rs-latin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.rs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ua.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.zh-CN.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.zh-TW.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap-closable-tab.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap-fileinput.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap-tab.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap-table-zh-CN.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/closable-tab-div.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/dataFormater.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/bootstrap-table-locale-all.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/bootstrap-table-locale-all.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/bootstrap-table.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/bootstrap-table.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/bootstrap-table.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/bootstrap-table.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/angular/bootstrap-table-angular.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/angular/bootstrap-table-angular.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/auto-refresh/bootstrap-table-auto-refresh.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/auto-refresh/bootstrap-table-auto-refresh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/click-edit-row/bootstrap-table-click-edit-row.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/click-edit-row/bootstrap-table-click-edit-row.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/cookie/bootstrap-table-cookie.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/cookie/bootstrap-table-cookie.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/copy-rows/bootstrap-table-copy-rows.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/copy-rows/bootstrap-table-copy-rows.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/defer-url/bootstrap-table-defer-url.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/defer-url/bootstrap-table-defer-url.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/editable/bootstrap-table-editable.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/editable/bootstrap-table-editable.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/export/bootstrap-table-export.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/export/bootstrap-table-export.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/filter-control/bootstrap-table-filter-control.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/filter-control/bootstrap-table-filter-control.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/filter-control/bootstrap-table-filter-control.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/filter/bootstrap-table-filter.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/filter/bootstrap-table-filter.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/flat-json/bootstrap-table-flat-json.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/flat-json/bootstrap-table-flat-json.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/group-by-v2/bootstrap-table-group-by.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/group-by-v2/bootstrap-table-group-by.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/group-by-v2/bootstrap-table-group-by.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/group-by/bootstrap-table-group-by.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/group-by/bootstrap-table-group-by.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/group-by/bootstrap-table-group-by.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/key-events/bootstrap-table-key-events.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/key-events/bootstrap-table-key-events.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/mobile/bootstrap-table-mobile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/mobile/bootstrap-table-mobile.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-search/bootstrap-table-multiple-search.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-search/bootstrap-table-multiple-search.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-sort/bootstrap-table-multiple-sort.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/natural-sorting/bootstrap-table-natural-sorting.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/page-jumpto/bootstrap-table-jumpto.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/page-jumpto/bootstrap-table-jumpto.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/page-jumpto/bootstrap-table-jumpto.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/print/bootstrap-table-print.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/print/bootstrap-table-print.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/reorder-columns/bootstrap-table-reorder-columns.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/reorder-rows/bootstrap-table-reorder-rows.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/reorder-rows/bootstrap-table-reorder-rows.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/resizable/bootstrap-table-resizable.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/resizable/bootstrap-table-resizable.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/select2-filter/bootstrap-table-select2-filter.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/select2-filter/bootstrap-table-select2-filter.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/sticky-header/bootstrap-table-sticky-header.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/sticky-header/bootstrap-table-sticky-header.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/sticky-header/bootstrap-table-sticky-header.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/toolbar/bootstrap-table-toolbar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/toolbar/bootstrap-table-toolbar.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/tree-column/bootstrap-table-tree-column.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/tree-column/bootstrap-table-tree-column.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/tree-column/bootstrap-table-tree-column.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/treegrid/bootstrap-table-treegrid.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/extensions/treegrid/bootstrap-table-treegrid.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-af-ZA.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-af-ZA.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ar-SA.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ar-SA.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ca-ES.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ca-ES.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-cs-CZ.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-cs-CZ.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-da-DK.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-da-DK.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-de-DE.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-de-DE.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-el-GR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-el-GR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-en-US.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-en-US.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-AR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-AR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-CL.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-CL.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-CR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-CR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-ES.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-ES.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-MX.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-MX.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-NI.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-NI.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-SP.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-es-SP.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-et-EE.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-et-EE.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-eu-EU.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-eu-EU.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-fa-IR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-fa-IR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-fr-BE.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-fr-BE.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-fr-FR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-fr-FR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-he-IL.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-he-IL.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-hr-HR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-hr-HR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-hu-HU.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-hu-HU.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-id-ID.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-id-ID.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-it-IT.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-it-IT.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ja-JP.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ja-JP.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ka-GE.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ka-GE.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ko-KR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ko-KR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ms-MY.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ms-MY.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-nb-NO.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-nb-NO.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-nl-NL.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-nl-NL.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-pl-PL.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-pl-PL.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-pt-BR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-pt-BR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-pt-PT.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-pt-PT.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ro-RO.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ro-RO.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ru-RU.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ru-RU.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-sk-SK.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-sk-SK.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-sv-SE.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-sv-SE.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-th-TH.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-th-TH.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-tr-TR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-tr-TR.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-uk-UA.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-uk-UA.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ur-PK.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-ur-PK.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-uz-Latn-UZ.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-uz-Latn-UZ.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-vi-VN.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-vi-VN.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-zh-CN.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-zh-CN.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-zh-TW.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/bootstrap/table/locale/bootstrap-table-zh-TW.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/font/fontawesome-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/font/fontawesome-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/font/fontawesome-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/font/fontawesome-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/fonts.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/jigsaw.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/css/styles.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/cxCalendar/css/jquery.cxcalendar.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/cxCalendar/js/jquery.cxcalendar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/cxCalendar/js/jquery.cxcalendar.languages.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/cxCalendar/js/jquery.cxcalendar.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/Starry.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/bg.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/bg1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/bg2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/bigtran.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/body-bgmain.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/icon_light.f13cff3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/images/noimage.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/js/google-maps.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/js/jquery-3.4.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/login/denglu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/login/login.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/login/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/login/translate_24dp.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/login/translateelement.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/css/font.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/font/font/iconfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/js/common.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/js/jquery-1.8.3.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/js/jquery.form.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/js/template.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/css/modules/laydate/default/laydate.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/css/modules/layer/default/icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/css/modules/layer/default/layer.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/css/modules/layer/default/loading-1.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/element.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/form.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/laydate.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/layer.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/laypage.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/laytpl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/lay/modules/table.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/layui/layui.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/ztree/jquery.ztree.all-3.5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/ztree/jquery.ztree.exhide-3.5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/commonBaseResource/plus/ztree/zTreeStyle/zTreeStyle.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/expandResource/js/basePage.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/hall/js/js-common/bid-view/ScrollPic.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/hall/js/js-common/bid-view/bid-list.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/hall/js/js-common/bid-view/bidding-hall.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/hall/js/js-common/bid-view/show-pic.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/common/global.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/common/hall-list.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/common/hall.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/common/layui.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/common/otherCommon.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/common/selfLayui.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/images/arrow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/images/fotter.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/images/header.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/images/person.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/images/sanjiao.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/images/star.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/bidhall/resource/skins/skin-blue/layout.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/css/MainCon.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/css/common.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/css/public.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/201810/160929585phb.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/201811/23152456ra2b.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/201902/221147578f10.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/201903/20190312.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/201903/21185758ltb8.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/CAlogin.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/allLogin.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/border05.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/flash-bg.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/footbg02.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/forgetPsd.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/hover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/icon6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/icon6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/link-bg.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/loginBg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/new.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/onlineStor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/p-tai.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/placeBg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/serach.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/sider/bottomButton.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/sider/map.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/smallBg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tab-bg04.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tab01.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tab02.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/title07.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/topButton.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tradePlace.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tz-body.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tz-icon.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tz-nav.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/tz-top.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images/user-regiest.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images1/102913313364.jpeg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/images1/black.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/banner1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/corn.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/header.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/ico1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/ico2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/ico3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/orangeImg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/orangeImg1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/run1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/img/theBidOpeningHall1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/cmp/Calendarfy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/cmp/Menu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/cmp/attachMenu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/cmp/page.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/cmp/select.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/cmp/tab.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/datastructs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/orgselect.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/prototype.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/sider/sider.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/smartclient.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/js/sys.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/styles/style1/css/cmp/Calendar.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/styles/style1/css/cmp/tab.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/styles/style1/css/page.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/styles/style1/css/sider/sider.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/core/styles/style1/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/comm/dateUtil.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/comm/jquery-1.8.3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/comm/publicUtil.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/comm/util.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/pb/resource/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/pb/resource/css/pb-objectInfo.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/pb/resource/css/public.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/taizhou/t9/subsys/pb/resource/images/process.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/axios.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/element/fonts/element-icons.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/element/fonts/element-icons.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/element/index.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/element/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/vue-router.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/vue.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/vue/vuex.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/bgs/TrainingExaminationApplicationTests.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/bgs/controller/pc.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/application.properties</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -769,10 +188,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TrainingExaminationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TrainingExamination" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bgs.TrainingExaminationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.TrainingExaminationApplication" />
@@ -808,10 +233,10 @@
       <updated>1608790166555</updated>
       <workItem from="1608790170305" duration="693000" />
       <workItem from="1608790879868" duration="1511000" />
-      <workItem from="1608855885681" duration="305000" />
-      <workItem from="1608863142891" duration="907000" />
-      <workItem from="1608875923270" duration="9091000" />
-      <workItem from="1608946333154" duration="1415000" />
+      <workItem from="1608855885681" duration="1633000" />
+      <workItem from="1608863854186" duration="1219000" />
+      <workItem from="1609063541435" duration="1186000" />
+      <workItem from="1609115266416" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="董莽">
       <created>1608791546282</created>
@@ -834,55 +259,62 @@
       <option name="project" value="LOCAL" />
       <updated>1608791775905</updated>
     </task>
-    <task id="LOCAL-00004" summary="aa">
-      <created>1608877046293</created>
+    <task id="LOCAL-00004" summary="董莽">
+      <created>1608856305227</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1608877046293</updated>
+      <updated>1608856305227</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11413000" />
+    <option name="totallyTimeSpent" value="4109000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.22293676" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19369973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3290461" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22400858" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.24731903" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -893,14 +325,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="董莽" />
-    <MESSAGE value="aa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="董莽" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="109" key="CommitChangelistDialog2" timestamp="1608791774668">
+    <state x="457" y="109" key="CommitChangelistDialog2" timestamp="1608856303534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="457" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791774668" />
+    <state x="457" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608856303534" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608791324820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -909,219 +340,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608790899194" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608791785587">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608856360141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791785587" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608856360141" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608791340894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608791340894" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bgs/controller/pc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bgs/pojo/aa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/yhy/Shipin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1517">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bgs/controller/pc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bgs/controller/pc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bgs/TrainingExaminationApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bgs/pojo/aa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bigtran.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/body-bgmain.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/icon_light.f13cff3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/noimage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/Starry.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vue/qs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vue/element/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret column="19056" selection-start-column="19056" selection-end-column="19056" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/yhy/Shipin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/leftTree/aaa.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/leftTree/Tree.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>TrainingExamination:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (TrainingExamination)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>TrainingExamination</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
