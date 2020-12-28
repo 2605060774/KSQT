@@ -1,0 +1,425 @@
+/*注册入口*/
+.register{
+    background: url("../images/bg1.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg');*/
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale')";*/
+}
+.trans-bg{
+    width: 559px;
+    height: 273px;
+    left: 50%;
+    margin-left: -280px;
+    top: 50%;
+    margin-top: -160px;
+    background: url("../images/transparent.png") no-repeat;
+    position: absolute;
+    padding: 46px 0 0 0;
+}
+.trans-bg span{
+    display: block;
+    width: 388px;
+    height: 75px;
+    background:url("../images/ico.png") no-repeat 0 -99px;
+    margin: 26px auto 0;
+}
+.trans-bg span a{
+    color: #333;
+    font-size: 18px;
+    line-height: 75px;
+    text-align: center;
+    background:url("../images/ico.png") no-repeat -286px  -291px;
+    padding-left: 35px;
+    display: block;
+    height: 70px;
+}
+.trans-bg span:hover{
+    background-position: 0 0;
+}
+.trans-bg span:hover a{
+    background-position: 64px -291px;
+    color: #fff;
+}
+
+/*注册类型*/
+.trans-bg-type{
+    background: url("../images/bg2.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.small-trans{
+    width: 1117px;
+    height: 450px;
+    left: 50%;
+    top: 50%;
+    margin-top: -225px;
+    margin-left: -559px;
+    background: url("../images/smalltran.png") repeat;
+    position: absolute;
+}
+.small-trans p{
+    width: 326px;
+    margin: 70px auto 45px;
+}
+
+.small-trans p span{
+    float: left;
+    display: block;
+    color: #03214a;
+    font-size: 20px;
+    margin: 0 5px;
+
+}
+.small-trans p span.line{
+    height: 1px;
+    background:#03214a ;
+    width: 88px;
+    margin-top: 13px;
+}
+.small-trans ul{
+    width: 558px;
+    margin: 0 auto;
+}
+.small-trans ul li{
+    float: left;
+    margin-right: 10px;
+}
+.small-trans ul li a{
+    display: block;
+    width: 240px;
+    height: 185px;
+    background:url("../images/ico.png") no-repeat 0px -620px;
+    line-height: 185px;
+    text-align: center;
+    color: #03214a;
+    font-size: 22px;
+}
+.small-trans ul li a:hover{
+    background-position-y: -386px;
+    width: 269px;
+    height: 200px;
+    color: #fff;
+}
+
+/*企业注册信息填写*/
+.enter-registrat{
+    background: url("../../../../../../images/bg1.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.big-trans{
+    width: 1036px;
+    height: 663px;
+    left: 50%;
+    top: 50%;
+    margin-top: -331px;
+    margin-left: -518px;
+    background: url("../../../../../../images/bigtran.png") repeat;
+    position: absolute;
+}
+.big-trans>p{
+    width: 365px;
+    margin: 64px auto 40px;
+}
+
+.big-trans>p span{
+    float: left;
+    display: block;
+    color: #333;
+    font-size: 24px;
+    margin: 0 12px;
+
+}
+.big-trans>p span.line{
+    height: 1px;
+    background:#0074d5 ;
+    width: 50px;
+    margin-top: 18px;
+}
+.big-trans>h6{
+    color: #ff0000;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.enter-table{
+    width: 935px;
+    margin: 0 auto;
+}
+.enter-table>table tr td{
+    height: 60px;
+    /*line-height: 30px;*/
+    vertical-align:top;
+}
+.enter-table>table tr td.label-name{
+    color: #333;
+    font-size: 18px;
+    text-align: right;
+    line-height: 30px;
+}
+.enter-table>table tr td input[type="text"],.enter-table>table tr td input[type="password"]{
+    width: 230px;
+    height: 30px;
+    border: #0074d5 solid 1px;
+    background: #f6f6f6;
+    margin-left: 10px;
+    text-indent: 1em;
+    border-radius: 5px;
+    color: #666;
+    font-size: 16px;
+}
+.enter-table>table tr td>span{
+    color: #ff0000;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.enter-table>table tr td strong{
+    display: inline-block;
+    background:url("../images/ico.png") no-repeat -302px -762px;
+    width: 88px;
+    height:32px;
+    margin: 0 10px;
+    vertical-align: top;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #bb0000;
+    cursor: pointer;
+
+
+}
+.enter-table>table tr td>a{
+    color: #0060e2;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.enter-table>table tr td em{
+    color: #ff0000;
+    font-style: normal;
+    font-size: 18px;
+}
+.enter-table>div{
+    text-align: center;
+
+}
+.enter-table>div input{
+    background: #fff;
+    border: #00a0e9 solid 1px;
+    width: 100px;
+    height: 30px;
+    color: #00a0e9;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.enter-table>div input:hover{
+background:#00a0e9;
+color:#fff;
+}
+
+/*注册成功*/
+.mid-trans{
+    width: 652px;
+    height: 418px;
+    left: 50%;
+    top: 50%;
+    margin-top: -209px;
+    margin-left: -326px;
+    background: url("../images/midtran.png") repeat;
+    position: absolute;
+}
+.mid-trans>span.ico{
+    display: block;
+    width:80px ;
+    height: 80px;
+    background:url("../images/ico.png") no-repeat -310px -648px;
+    margin: 36px auto 46px;
+
+}
+.mid-trans>p{
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+
+}
+.mid-trans>b{
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 34px;
+    color: #333;
+    font-size: 16px;
+}
+.mid-trans>a{
+    color: #1890ff;
+    margin-top: 34px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    display: block;
+}
+.pay-table{
+    margin: 0 auto;
+}
+.pay-table td{
+    color: #333;
+    font-size: 16px;
+    height: 30px;
+
+}
+.note-atte{
+    width: 730px;
+    margin: 0 auto;
+}
+.note-atte span{
+    color: #333;
+    font-size: 16px;
+    vertical-align: top;
+}
+.note-atte p{
+    display: inline-block;
+    color: #ff0000;
+    font-size: 12px;
+    font-family: "宋体";
+    text-align: left;
+    line-height: 24px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.pay-table td span{
+  margin-left: 10px;
+}
+.print-close{
+    text-align: center;
+    margin-top: 25px;
+}
+.print-close input{
+    background: #fff;
+    border: #00a0e9 solid 1px;
+    width: 100px;
+    height: 30px;
+    color: #00a0e9;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.print-close input:hover{
+    background:#00a0e9;
+    color:#fff;
+}
+
+.mid-trans>p.title-forget{
+    width: 270px;
+    margin: 64px auto 40px;
+}
+
+.mid-trans>p.title-forget span{
+    float: left;
+    display: block;
+    color: #333;
+    font-size: 24px;
+    margin: 0 12px;
+
+}
+.mid-trans>p.title-forget span.line{
+    height: 1px;
+    background:#0074d5 ;
+    width: 50px;
+    margin-top: 18px;
+}
+.enter-table > table tr td.radio{
+    font-size: 14px;
+    color: #333;
+}
+.enter-table .send-btn{
+    background: #fff;
+    border: #00a0e9 solid 1px;
+    width: 100px;
+    height: 30px;
+    color: #00a0e9;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.enter-table .send-btn:hover{
+    background:#00a0e9;
+    color:#fff;
+}
+
+/*企业注册须知*/
+.agreeItems1 {
+    width: 720px;
+    height: 500px;
+    background: #FFF;
+    border-radius: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -360px;
+    margin-top: -250px;
+    color: #666;
+    font-size: 12px;
+}
+.regTitle-new {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0px 30px;
+    font-size: 24px;
+    color: #2d579d;
+}
+.showContent-new {
+    padding: 0px 70px;
+    height: 298px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.showContent-new p {
+    line-height: 36px;
+}
+.showContent-new2 {
+    overflow-y: visible ;
+    width: 740px;
+    padding: 0px 70px;
+    height: 379px;
+    font-size: 12px;
+    position: relative;
+    letter-spacing: 1px;
+}
+.showContent-new2 p {
+    line-height: 36px;
+}
+.btnBox-new{
+    text-align: center;
+}
+.btnBox-new button{
+    background-color:#2979a2;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.btnBox-new button.disabled{
+    background-color: #ededed;
+    color: #999;
+    cursor: auto;
+}
