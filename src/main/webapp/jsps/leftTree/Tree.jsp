@@ -23,7 +23,7 @@
             <el-menu-item index="" style="color:#fff;opacity:1;margin-right: 100px" disabled>员工培训考试系统</el-menu-item>
             <el-menu-item index="${pageContext.request.contextPath}/jsps/leftTree/aaa.jsp">员工考试</el-menu-item>
             <el-menu-item index="${pageContext.request.contextPath}/jsps/leftTree/Tree.jsp">成绩列表</el-menu-item>
-            <el-menu-item index="3">我的文章资料</el-menu-item>
+            <el-menu-item index="${pageContext.request.contextPath}/jsps/pc/essay.jsp">我的文章资料</el-menu-item>
             <el-menu-item index="4">我的视频资料</el-menu-item>
         </el-menu>
         <iframe :src="tree" width="100%" height="93%"></iframe>
