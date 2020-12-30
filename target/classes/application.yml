@@ -32,7 +32,7 @@ mybatis:
     #3.懒加载
     #lazy-loading-enabled: true
     #4.起别名
-  type-aliases-package: com.spring.pojo
+  type-aliases-package: com.bgs.pojo
 
 
 server:

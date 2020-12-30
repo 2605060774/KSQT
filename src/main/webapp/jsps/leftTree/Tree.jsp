@@ -1,4 +1,10 @@
-
+<%--
+  Created by IntelliJ IDEA.
+  User: 1
+  Date: 2020/12/25
+  Time: 14:39
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -21,10 +27,12 @@
                 text-color="#fff"
                 active-text-color="#ffd04b">
             <el-menu-item index="" style="color:#fff;opacity:1;margin-right: 100px" disabled>员工培训考试系统</el-menu-item>
-            <el-menu-item index="${pageContext.request.contextPath}/jsps/leftTree/aaa.jsp">员工考试</el-menu-item>
-            <el-menu-item index="${pageContext.request.contextPath}/jsps/leftTree/Tree.jsp">成绩列表</el-menu-item>
-            <el-menu-item index="${pageContext.request.contextPath}/jsps/pc/essay.jsp">我的文章资料</el-menu-item>
-            <el-menu-item index="4">我的视频资料</el-menu-item>
+            <el-menu-item style="margin-left: 100px" index="${pageContext.request.contextPath}/jsps/employeesTest/list.jsp">员工考试</el-menu-item>
+            <el-menu-item style="margin-left: 100px" index="${pageContext.request.contextPath}/jsps/leftTree/Tree.jsp">成绩列表</el-menu-item>
+            <el-menu-item style="margin-left: 100px" index="${pageContext.request.contextPath}/jsps/pc/essay.jsp">我的文章资料</el-menu-item>
+            <el-menu-item style="margin-left: 100px" index="4">我的视频资料</el-menu-item>
+            <el-menu-item @click="loginOut()" style="float:right;margin-right: 100px">注销</el-menu-item>
+            <el-menu-item index="" style="color:#fff;opacity:1;float:right;" disabled>欢迎登录！{{username}}</el-menu-item>
         </el-menu>
         <iframe :src="tree" width="100%" height="93%"></iframe>
 </div>
@@ -34,15 +42,26 @@
         el:"#app",
         data(){
             return{
-                tree:""
+                tree:"",
+                username:""
             }
         },
         methods: {
+            loginOut(){
+                sessionStorage.removeItem("Token");
+                sessionStorage.removeItem("userName");
+                location.reload();
+            },
             handleSelect(key, keyPath) {
                 this.tree=key
             },
         },
         mounted() {
+            if(sessionStorage.getItem("Token") != null){
+                this.username=sessionStorage.getItem("userName");
+            }else{
+                window.location.href = "http://localhost:8080/jsps/leftTree/login.jsp"
+            }
         },
         computed: {
 
