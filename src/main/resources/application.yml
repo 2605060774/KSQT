@@ -46,7 +46,6 @@ server:
 #打印SQL语句
 logging:
   level:
-    cn:
-      hjl:
-        springboot:
-          dao: debug
+    com:
+      bgs:
+        mapper: debug

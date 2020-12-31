@@ -18,10 +18,12 @@
 </head>
 <body>
 
+
 <%--查询--%>
 开始时间：<input type="datetime-local" id="startTime" name="startTime" style="border:none;"/>
 结束时间：<input type="datetime-local" id="endTime" name="endTime" style="border:none;"/>
 <input type="button" id="chaxun" class="btn btn-primary" value="搜索">
+
 
 <%--表单--%>
 <table id="EmployeesInfo"></table>
@@ -29,8 +31,7 @@
     $("#chaxun").click(function () {
         var startTime = $("#startTime").val();
         var endTime = $("#endTime").val();
-        alert(startTime)
-        alert(endTime)
+
         $("#EmployeesInfo").bootstrapTable("destroy")//销毁全局的，展示查询的
         $("#EmployeesInfo").bootstrapTable({
             url: '/Employees/userpapeInfo',
@@ -79,17 +80,23 @@
 
                     title: '操作',
                     formatter: function (value, row, index) {
-                        return "<a href='/jsps/Employees/paperInfo.jsp'>查看答卷</a>"
+                        return "<a href='javascript:paper("+row.paperId+")'>查看答卷</a> "
 
-                    }
+    }
                 }
             ]
         });
     })
+
     //表格
     $(function () {
         employeestab()
     })
+
+//查看正确答案案
+    function paper(paperId) {
+        window.location.href = "http://localhost:8080/jsps/Employees/infoShow.jsp?pa="+paperId
+    }
 
 
     function employeestab() {
@@ -133,10 +140,10 @@
                     field: 'endTime',
                     title: '结束时间'
                 }, {
-
+                    field: 'paperId',
                     title: '操作',
                     formatter: function (value, row, index) {
-                        return "<a href='/jsps/Employees/paperInfo.jsp'>查看答卷</a>"
+                        return "<a href='javascript:paper("+row.paperId+")'>查看答卷</a> "
 
                     }
                 }

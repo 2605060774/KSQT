@@ -64,7 +64,7 @@ public class DongController {
     @ResponseBody
     @RequestMapping("/listPaper")
     public List<UserPaper> listPaper(@RequestBody Map<String,String> map) throws Exception {
-//        dongService.invalidateByAccessToken(map.get("Token"));
+
         AccessTokenDto token = dongService.parseAccessToken(map.get("Token"));
         List<UserPaper> userPaper=dongService.listPaper(token.getUserId());
         return userPaper;
@@ -74,7 +74,7 @@ public class DongController {
     @ResponseBody
     @RequestMapping("/listPaperQuestions")
     public List<PaperQuestions> listPaperQuestions(@RequestBody Map<String,String> map) {
-//        dongService.invalidateByAccessToken(map.get("Token"));
+
         int paperId = Integer.parseInt(map.get("paperId"));
         List<PaperQuestions> paperQuestions=dongService.listPaperQuestions(paperId);
         return paperQuestions;
