@@ -1,6 +1,7 @@
 package com.bgs.service.Impl;
 
 import com.bgs.mapper.EmployeesMapper;
+import com.bgs.pojo.PaperQuestions;
 import com.bgs.pojo.UserPaper;
 import com.bgs.service.EmployeesService;
 import org.springframework.stereotype.Service;
@@ -18,6 +19,11 @@ public class EmployeesServiceImpl implements EmployeesService {
     public List<UserPaper> userpapeInfo(String startTime,String endTime) {
 
         return employeesMapper.userpapeInfo(startTime,endTime);
+    }
+/*展示*/
+    @Override
+    public List<PaperQuestions> infoPaperQuestions(int paperId) {
+        return employeesMapper.infoPaperQuestions(paperId);
     }
 
 }
