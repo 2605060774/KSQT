@@ -41,6 +41,7 @@ public class DongService {
             //将token对象存储到redis中
 //            stringRedisTemplate.opsForValue().set(accessToken, JSON.toJSONString(user));
 //            stringRedisTemplate.expire(accessToken,1440, TimeUnit.MINUTES);
+
             list.add(user.getUsername());
             list.add(accessToken);
             return list;
@@ -83,7 +84,7 @@ public class DongService {
         return response;
     }
 
-    //    解析token
+    // 解析token
     public AccessTokenDto parseAccessToken(String accessToken) throws Exception {
         String tokenJsonStr = EncryptUtil.aesDecrypt(accessToken, Constant.TOKEN_AUTH_KEY);
         return objectMapper.readValue(tokenJsonStr, AccessTokenDto.class);
@@ -96,8 +97,8 @@ public class DongService {
     public List<PaperQuestions> listPaperQuestions(int paperId) {
         return dongMapper.listPaperQuestions(paperId);
     }
-    //    失效Token
-/*    public void invalidateByAccessToken(String accessToken) {
+    //失效Token
+/* public void invalidateByAccessToken(String accessToken) {
         if (StringUtils.isNotBlank(accessToken)){
             stringRedisTemplate.delete(accessToken);
         }
