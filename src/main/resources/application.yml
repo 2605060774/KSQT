@@ -1,5 +1,10 @@
 #jsp的视图解析器
 spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
   mvc:
     view:
       prefix: /jsps/
@@ -49,3 +54,14 @@ logging:
     com:
       bgs:
         mapper: debug
+
+
+
+
+# OSS
+aliyun:
+      access-id: LTAI4G1nYnfaNTzWkfi5AZGi
+      access-key: wDj3hBIYARosupiyPEHMIRdv5Ttpep
+      bucket: yhy-ksxt
+      endpoint: oss-cn-beijing.aliyuncs.com
+

@@ -19,7 +19,7 @@
         </if>
     </select>
 
-    <!--正确答案展示-->
+    <!--展示-->
 
     <resultMap id="paperQu" type="PaperQuestions" autoMapping="true">
         <id property="id" column="id"></id>

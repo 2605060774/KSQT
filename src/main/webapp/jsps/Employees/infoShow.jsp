@@ -19,7 +19,7 @@
     <script src="${pageContext.request.contextPath}/kao/jquery.easy-pie-chart.js"></script>
     <!--时间js-->
     <script src="${pageContext.request.contextPath}/kao/time/jquery.countdown.js"></script>
-    <title>展示</title>
+    <title>页面展示</title>
 
     <style>
         .hasBeenAnswer {

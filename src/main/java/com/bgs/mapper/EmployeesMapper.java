@@ -13,6 +13,6 @@ public interface EmployeesMapper {
 
     List<UserPaper> userpapeInfo(@Param("startTime") String startTime,@Param("endTime") String endTime);
 
-
+/*展示*/
     List<PaperQuestions> infoPaperQuestions(@Param("id") int paperId);
 }
