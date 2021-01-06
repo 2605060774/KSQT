@@ -123,7 +123,22 @@
                 })
                     .then(function (response) {
                         console.log(response.data);
+                        var newdate = new Date(Date().replace(/\-/g, "\/"));
                         _this.userPaper = response.data;
+                        for(let i=0;i<_this.userPaper.length;i++){
+                            response.data[i].startTime;
+                            var startdate = new Date(_this.userPaper[i].startTime.replace(/\-/g, "\/"));
+                            var enddate = new Date(_this.userPaper[i].endTime.replace(/\-/g, "\/"));
+                            if(startdate>=newdate){
+                                _this.userPaper[i].status=0;
+                                _this.countTime(i);
+                            }else if(enddate<=newdate){
+                                _this.userPaper[i].status=2;
+                            }else{
+                                _this.userPaper[i].status=1;
+                                _this.countTime1(i);
+                            }
+                        }
                     })
                     .catch(function (error) {
                         console.log(error);
@@ -134,6 +149,40 @@
             },
             handleSizeChange(psize) {
                 this.pagesize = psize;
+            },
+            countTime(index) {
+                // 定义结束时间戳
+                const end = Date.parse(new Date(this.userPaper[index].startTime));
+                // 定义当前时间戳
+                const now = Date.parse(new Date());
+                // 做判断当倒计时结束时都为0
+                if (now >= end) {
+                    this.userPaper[index].status=1;
+                    this.countTime1(index);
+                    return
+                }
+                var that=this;
+                // 使用定时器 然后使用递归 让每一次函数能调用自己达到倒计时效果
+                setTimeout(function () {
+                    that.countTime(index)
+                }, 1000);
+            },
+
+            countTime1(index) {
+                // 定义结束时间戳
+                const end = Date.parse(new Date(this.userPaper[index].endTime));
+                // 定义当前时间戳
+                const now = Date.parse(new Date());
+                // 做判断当倒计时结束时都为0
+                if (now >= end) {
+                    this.userPaper[index].status=2;
+                    return
+                }
+                var that=this;
+                // 使用定时器 然后使用递归 让每一次函数能调用自己达到倒计时效果
+                setTimeout(function () {
+                    that.countTime(index)
+                }, 1000);
             },
         },
         mounted(){

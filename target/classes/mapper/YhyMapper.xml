@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bgs.mapper.YhyMapper">
+
+<!--视频库-->
+<select id="findVideo" resultType="com.bgs.pojo.Video">
+        select * from video
+        <where>
+            <if test="videoStatus!=null and videoStatus!=''">
+                video_status=#{videoStatus}
+            </if>
+            <if test="videoTitle!=null and videoTitle!=''">
+              and  video_title like '%${videoTitle}%'
+            </if>
+            <if test="beginTime!=null and beginTime!=''">
+               and video_create_time between #{beginTime} and #{endTime}
+            </if>
+        </where>
+</select>
+
+<!--添加视频-->
+<insert id="addVideo">
+    insert into video (video_title, video_create_time, video_file, video_cover, video_status) values(#{videoTitle},curdate(),#{videoFile},#{videoCover},#{videoStatus})
+</insert>
+
+<!--查看-->
+<select id="findById" resultType="com.bgs.pojo.Video">
+    select * from video where video_id=#{videoId}
+</select>
+
+<!--删除-->
+<delete id="delVideo">
+    delete from video where video_id=#{videoId}
+</delete>
+
+<!--添加到我的视频库-->
+<update id="updShareVideo">
+    update video set video_status=1 where video_id=#{videoId}
+</update>
+
+
+<!--编辑-->
+<update id="updVideo">
+    update video set video_title=#{videoTitle},video_file=#{videoFile},video_cover=#{videoCover} where video_id=#{videoId}
+</update>
+</mapper>

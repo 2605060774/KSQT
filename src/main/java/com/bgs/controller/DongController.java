@@ -1,9 +1,7 @@
 package com.bgs.controller;
 
-import com.bgs.pojo.AccessTokenDto;
-import com.bgs.pojo.PaperQuestions;
-import com.bgs.pojo.User;
-import com.bgs.pojo.UserPaper;
+import com.alibaba.fastjson.JSONArray;
+import com.bgs.pojo.*;
 import com.bgs.service.DongService;
 import com.bgs.util.VerifyCodeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -78,6 +76,19 @@ public class DongController {
         int paperId = Integer.parseInt(map.get("paperId"));
         List<PaperQuestions> paperQuestions=dongService.listPaperQuestions(paperId);
         return paperQuestions;
+    }
+
+
+    @ResponseBody
+    @RequestMapping("/jiaojuan")
+    public boolean jiaojuan(@RequestBody Map<String,String> map) throws Exception {
+
+        System.out.println(map.get("userPaper"));
+        System.out.println(map.get("user"));
+        AccessTokenDto token = dongService.parseAccessToken(map.get("user"));
+        List<UserQuestions> ts = JSONArray.parseArray(map.get("userPaper"), UserQuestions.class);
+        dongService.addUserQuestions(ts,token.getUserId());
+        return true;
     }
 
 

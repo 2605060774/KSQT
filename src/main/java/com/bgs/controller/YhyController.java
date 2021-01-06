@@ -36,7 +36,7 @@ public class YhyController {
     }
 
     /*新增视频（图片上传到oss，视频上传到本地）*/
-    private String realPath="D:/IdeaWork/ksxt_font/src/main/webapp";
+    private String realPath="D:/java/IDEA/TrainingExamination/src/main/webapp";
     @RequestMapping("addVideo")
     @ResponseBody
     public int addVideo(MultipartFile file,MultipartFile file2, Video video) throws IOException {

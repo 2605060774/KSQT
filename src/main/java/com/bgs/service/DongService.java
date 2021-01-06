@@ -1,10 +1,7 @@
 package com.bgs.service;
 
 import com.bgs.mapper.DongMapper;
-import com.bgs.pojo.AccessTokenDto;
-import com.bgs.pojo.PaperQuestions;
-import com.bgs.pojo.User;
-import com.bgs.pojo.UserPaper;
+import com.bgs.pojo.*;
 import com.bgs.util.BaseResponse;
 import com.bgs.util.Constant;
 import com.bgs.util.EncryptUtil;
@@ -12,6 +9,7 @@ import com.bgs.util.StatusCode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -96,6 +94,18 @@ public class DongService {
 
     public List<PaperQuestions> listPaperQuestions(int paperId) {
         return dongMapper.listPaperQuestions(paperId);
+    }
+
+    @Async
+    public void addUserQuestions(List<UserQuestions> ts, Integer userId) {
+        Integer score=0;
+        for (UserQuestions qu :ts) {
+            qu.setUserId(userId);
+            score+=qu.getScore();
+        }
+        dongMapper.addUserQuestions(ts);
+
+        dongMapper.updPaper(score,userId,ts.get(0).getPaperId());
     }
     //失效Token
 /* public void invalidateByAccessToken(String accessToken) {
