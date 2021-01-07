@@ -19,7 +19,7 @@
     <script src="${pageContext.request.contextPath}/kao/jquery.easy-pie-chart.js"></script>
     <!--时间js-->
     <script src="${pageContext.request.contextPath}/kao/time/jquery.countdown.js"></script>
-    <title>页面展示</title>
+    <title>答题页面</title>
 
     <style>
         .hasBeenAnswer {
@@ -53,12 +53,12 @@
             <div class="nr_left">
                 <div class="test">
                     <form action="" method="post">
-                        <div class="test_title">
-                            <p class="test_time">
-                                <i class="icon iconfont">&#xe6fb;</i><b class="alt-1">{{h}}时:{{m}}分:{{s}}秒</b>
-                            </p>
-                            <font><input type="button" @click="jiaojuan()" value="交卷"></font>
-                        </div>
+                        <%--<div class="test_title">--%>
+                            <%--<p class="test_time">--%>
+                                <%--<i class="icon iconfont">&#xe6fb;</i><b class="alt-1">{{h}}时:{{m}}分:{{s}}秒</b>--%>
+                            <%--</p>--%>
+                            <%--<font><input type="button" @click="jiaojuan()" value="交卷"></font>--%>
+                        <%--</div>--%>
 
                         <div class="test_content" v-if="MultipleChoiceLength > 0">
                             <div class="test_content_title">
@@ -270,94 +270,94 @@
                     </form>
                 </div>
             </div>
-            <div class="nr_right">
-                <div class="nr_rt_main">
-                    <div class="rt_nr1">
-                        <div class="rt_nr1_title">
-                            <h1>
-                                <i class="icon iconfont">&#xe692;</i>答题卡
-                            </h1>
-                            <p class="test_time" style="">
-                                <b class="alt-1">{{h}}时:{{m}}分:{{s}}秒</b>
-                            </p>
-                        </div>
+            <%--<div class="nr_right">--%>
+                <%--<div class="nr_rt_main">--%>
+                    <%--<div class="rt_nr1">--%>
+                        <%--<div class="rt_nr1_title">--%>
+                            <%--<h1>--%>
+                                <%--<i class="icon iconfont">&#xe692;</i>答题卡--%>
+                            <%--</h1>--%>
+                            <%--<p class="test_time" style="">--%>
+                                <%--<b class="alt-1">{{h}}时:{{m}}分:{{s}}秒</b>--%>
+                            <%--</p>--%>
+                        <%--</div>--%>
 
-                        <div class="rt_content"  v-if="MultipleChoiceLength > 0">
-                            <div class="rt_content_tt">
-                                <h2>单选题</h2>
-                                <p>
-                                    <span>共</span><i class="content_lit">{{MultipleChoiceLength}}</i><span>题</span>
-                                </p>
-                            </div>
-                            <div class="rt_content_nr answerSheet">
-                                <ul>
-                                    <li v-for="(item,i) in MultipleChoice"><a :href="item.href">{{i+1}}</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                        <div class="rt_content"  v-if="MultiSelectLength > 0">
-                            <div class="rt_content_tt">
-                                <h2>多选题</h2>
-                                <p>
-                                    <span>共</span><i class="content_lit">{{MultiSelectLength}}</i><span>题</span>
-                                </p>
-                            </div>
-                            <div class="rt_content_nr answerSheet">
-                                <ul>
-                                    <li v-for="(item,i) in MultiSelect"><a :href="item.href">{{i+1}}</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <%--<div class="rt_content"  v-if="MultipleChoiceLength > 0">--%>
+                            <%--<div class="rt_content_tt">--%>
+                                <%--<h2>单选题</h2>--%>
+                                <%--<p>--%>
+                                    <%--<span>共</span><i class="content_lit">{{MultipleChoiceLength}}</i><span>题</span>--%>
+                                <%--</p>--%>
+                            <%--</div>--%>
+                            <%--<div class="rt_content_nr answerSheet">--%>
+                                <%--<ul>--%>
+                                    <%--<li v-for="(item,i) in MultipleChoice"><a :href="item.href">{{i+1}}</a></li>--%>
+                                <%--</ul>--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
 
 
-                        <div class="rt_content"  v-if="estimateLength > 0">
-                            <div class="rt_content_tt">
-                                <h2>判断</h2>
-                                <p>
-                                    <span>共</span><i class="content_lit">{{estimateLength}}</i><span>题</span>
-                                </p>
-                            </div>
-                            <div class="rt_content_nr answerSheet">
-                                <ul>
-                                    <li v-for="(item,i) in estimate"><a :href="item.href">{{i+1}}</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <%--<div class="rt_content"  v-if="MultiSelectLength > 0">--%>
+                            <%--<div class="rt_content_tt">--%>
+                                <%--<h2>多选题</h2>--%>
+                                <%--<p>--%>
+                                    <%--<span>共</span><i class="content_lit">{{MultiSelectLength}}</i><span>题</span>--%>
+                                <%--</p>--%>
+                            <%--</div>--%>
+                            <%--<div class="rt_content_nr answerSheet">--%>
+                                <%--<ul>--%>
+                                    <%--<li v-for="(item,i) in MultiSelect"><a :href="item.href">{{i+1}}</a></li>--%>
+                                <%--</ul>--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
 
 
-                        <div class="rt_content"  v-if="GapFillingLength > 0">
-                            <div class="rt_content_tt">
-                                <h2>填空</h2>
-                                <p>
-                                    <span>共</span><i class="content_lit">{{GapFillingLength}}</i><span>题</span>
-                                </p>
-                            </div>
-                            <div class="rt_content_nr answerSheet">
-                                <ul>
-                                    <li v-for="(item,i) in GapFilling"><a :href="item.href">{{i+1}}</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <%--<div class="rt_content"  v-if="estimateLength > 0">--%>
+                            <%--<div class="rt_content_tt">--%>
+                                <%--<h2>判断</h2>--%>
+                                <%--<p>--%>
+                                    <%--<span>共</span><i class="content_lit">{{estimateLength}}</i><span>题</span>--%>
+                                <%--</p>--%>
+                            <%--</div>--%>
+                            <%--<div class="rt_content_nr answerSheet">--%>
+                                <%--<ul>--%>
+                                    <%--<li v-for="(item,i) in estimate"><a :href="item.href">{{i+1}}</a></li>--%>
+                                <%--</ul>--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
 
 
-                        <div class="rt_content"  v-if="ShortAnswerLength > 0">
-                            <div class="rt_content_tt">
-                                <h2>简答</h2>
-                                <p>
-                                    <span>共</span><i class="content_lit">{{ShortAnswerLength}}</i><span>题</span>
-                                </p>
-                            </div>
-                            <div class="rt_content_nr answerSheet">
-                                <ul>
-                                    <li v-for="(item,i) in ShortAnswer"><a :href="item.href">{{i+1}}</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <%--<div class="rt_content"  v-if="GapFillingLength > 0">--%>
+                            <%--<div class="rt_content_tt">--%>
+                                <%--<h2>填空</h2>--%>
+                                <%--<p>--%>
+                                    <%--<span>共</span><i class="content_lit">{{GapFillingLength}}</i><span>题</span>--%>
+                                <%--</p>--%>
+                            <%--</div>--%>
+                            <%--<div class="rt_content_nr answerSheet">--%>
+                                <%--<ul>--%>
+                                    <%--<li v-for="(item,i) in GapFilling"><a :href="item.href">{{i+1}}</a></li>--%>
+                                <%--</ul>--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
+
+
+                        <%--<div class="rt_content"  v-if="ShortAnswerLength > 0">--%>
+                            <%--<div class="rt_content_tt">--%>
+                                <%--<h2>简答</h2>--%>
+                                <%--<p>--%>
+                                    <%--<span>共</span><i class="content_lit">{{ShortAnswerLength}}</i><span>题</span>--%>
+                                <%--</p>--%>
+                            <%--</div>--%>
+                            <%--<div class="rt_content_nr answerSheet">--%>
+                                <%--<ul>--%>
+                                    <%--<li v-for="(item,i) in ShortAnswer"><a :href="item.href">{{i+1}}</a></li>--%>
+                                <%--</ul>--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
         </div>
     </div>
 </body>
