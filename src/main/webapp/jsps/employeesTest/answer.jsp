@@ -446,7 +446,22 @@
                 }
             },
 
-            huoqu(type,e,index,questionsScore,answer,examId,questionsId){
+
+                judgeResultFun(arr1, arr2) {
+                    let flag = true;
+                    if (arr1.length !== arr2.length) {
+                        flag = false
+                    } else {
+                        arr1.forEach(item => {
+                            if (arr2.indexOf(item) === -1) {
+                                flag = false
+                            }
+                        })
+                    }
+                    return flag;
+                },
+
+                huoqu(type,e,index,questionsScore,answer,examId,questionsId){
                 if (e.target.tagName === 'LABEL'|| e.target.tagName === 'P') return; // 因为原生click事件会执行两次，第一次在label标签上，第二次在input标签上，故此处理
                 var _this=this;
                 examId=examId.substring(examId.indexOf("_")+1,examId.length);
@@ -493,7 +508,7 @@
                             cardLi.removeClass('hasBeenAnswer');
                         }
                     }
-                    if(_this.userPaper[examId].choiceAnswerIds.toString()==answer.split(",").toString()){
+                    if(_this.judgeResultFun(_this.userPaper[examId].choiceAnswerIds,answer.split(","))){
                         defen=questionsScore;
                     }
                     AnswerIds=_this.userPaper[examId].choiceAnswerIds;
@@ -502,8 +517,8 @@
                     if(radioVal==answer){
                         defen=questionsScore;
                     }
-                    AnswerIds.push(radioVal);
-                    console.log(radioVal)
+                    _this.userPaper[examId].judgeAnswer=radioVal;
+
                 }
                 // var radioVal1 = document.getElementsByName(questionsId)[0].value;
 
