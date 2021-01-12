@@ -57,11 +57,3 @@ logging:
 
 
 
-
-# OSS
-aliyun:
-      access-id: LTAI4G1nYnfaNTzWkfi5AZGi
-      access-key: wDj3hBIYARosupiyPEHMIRdv5Ttpep
-      bucket: yhy-ksxt
-      endpoint: oss-cn-beijing.aliyuncs.com
-

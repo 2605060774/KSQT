@@ -7,7 +7,7 @@ import java.util.List;
 @Data
 public class AllAnswer {
 
-  private Integer answerId;
+  private String answerId;
   private String content;
   private Integer answerIndex;
   private String questionsId;

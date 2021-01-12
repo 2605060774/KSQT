@@ -56,6 +56,7 @@ public class YhyController {
         String accessKeySecret = "wDj3hBIYARosupiyPEHMIRdv5Ttpep";
         String bucketName = "yhy-ksxt";
 
+
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
         InputStream inputStream = null;
         try {
@@ -118,6 +119,7 @@ public class YhyController {
             String accessKeyId = "LTAI4G1nYnfaNTzWkfi5AZGi";
             String accessKeySecret = "wDj3hBIYARosupiyPEHMIRdv5Ttpep";
             String bucketName = "yhy-ksxt";
+
 
             OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
             InputStream inputStream = null;

@@ -83,8 +83,6 @@ public class DongController {
     @RequestMapping("/jiaojuan")
     public boolean jiaojuan(@RequestBody Map<String,String> map) throws Exception {
 
-        System.out.println(map.get("userPaper"));
-        System.out.println(map.get("user"));
         AccessTokenDto token = dongService.parseAccessToken(map.get("user"));
         List<UserQuestions> ts = JSONArray.parseArray(map.get("userPaper"), UserQuestions.class);
         dongService.addUserQuestions(ts,token.getUserId());

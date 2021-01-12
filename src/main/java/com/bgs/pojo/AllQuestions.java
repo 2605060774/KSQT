@@ -9,7 +9,7 @@ public class AllQuestions {
 
   private String questionsId;
   private String questions;
-  private Integer answer;
+  private String answer;
   private Integer type;
   private Integer judgeAnswer;
   private String answerIds;

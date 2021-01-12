@@ -51,6 +51,7 @@
                 and pq.paper_id=#{id}
             </if>
         </where>
+        order by aa.answer_index
     </select>
     
     <insert id="addUserQuestions" parameterType="UserQuestions">
